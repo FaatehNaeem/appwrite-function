@@ -2,7 +2,7 @@ const axios = require('axios');
 
 module.exports = async function (req, res) {
     try {
-        const notificationResponse = await axios.post('https://api.nativenotify.com/v1/notifications', {
+        const notificationResponse = await axios.post('https://app.nativenotify.com/api/notification', {
             appId: 22441,
             apiKey: 'PXoDlzlfuW4L0PJ4olFvDV',
             title: 'Daily Notification',
