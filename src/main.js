@@ -6,7 +6,7 @@ module.exports = async function (req, res) {
             appId: 22441,
             apiKey: 'PXoDlzlfuW4L0PJ4olFvDV',
             title: 'Daily Notification',
-            message: 'This is your daily notification!',
+            body: 'This is your daily notification!',
             // Add any other parameters as needed
         });
 
